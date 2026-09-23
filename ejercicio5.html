@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Biblioteca Escolar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📚 Sistema de Biblioteca</h1>
+        
+        <div class="form-section">
+            <h2>Agregar Nuevo Libro</h2>
+            <input type="text" id="titulo" placeholder="Título del libro">
+            <input type="text" id="autor" placeholder="Autor">
+            <input type="number" id="anio" placeholder="Año de publicación">
+            <button id="btn-agregar">Registrar Libro</button>
+        </div>
+
+        <div class="catalog-section">
+            <h2>Catálogo Disponible</h2>
+            <div id="catalogo" class="grid-libros"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
