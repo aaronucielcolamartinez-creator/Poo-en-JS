@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestor de Tareas POO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📝 Mis Tareas Pendientes</h1>
+        
+        <div class="form-group">
+            <input type="text" id="input-titulo" placeholder="¿Qué necesitas hacer?">
+            <select id="select-prioridad">
+                <option value="baja">Baja</option>
+                <option value="media">Media</option>
+                <option value="alta">Alta</option>
+            </select>
+            <button id="btn-crear">Agregar Tarea</button>
+        </div>
+
+        <ul id="lista-tareas"></ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
