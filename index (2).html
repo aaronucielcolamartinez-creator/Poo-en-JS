@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora POO</title>
+    <style>
+        body { font-family: sans-serif; display: flex; flex-direction: column; align-items: center; background: #f4f4f4; padding: 20px; }
+        .card { background: white; padding: 20px; border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); width: 300px; }
+        .pantalla { background: #2c3e50; color: #2ecc71; padding: 15px; font-size: 1.5rem; text-align: right; border-radius: 5px; margin-bottom: 15px; }
+        input { width: 92%; padding: 10px; margin-bottom: 10px; border: 1px solid #ddd; border-radius: 5px; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+        button { padding: 10px; cursor: pointer; border: none; border-radius: 5px; background: #3498db; color: white; font-weight: bold; }
+        button:hover { background: #2980b9; }
+        .btn-reset { background: #e74c3c; grid-column: span 2; }
+    </style>
+</head>
+<body>
+    <h1>Calculadora Inteligente</h1>
+    <div class="card">
+
+        <div id="pantalla" class="pantalla">0</div>
+        <input type="number" id="numero" placeholder="Número">
+        
+        <div class="grid">
+            <button onclick="ejecutar('sumar')">➕ Sumar</button>
+            <button onclick="ejecutar('restar')">➖ Restar</button>
+            <button onclick="ejecutar('multiplicar')">✖️ Multiplicar</button>
+            <button onclick="ejecutar('dividir')">➗ Dividir</button>
+            <button class="btn-reset" onclick="ejecutar('reset')">C (Limpiar)</button>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
