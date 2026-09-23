@@ -1,0 +1,5 @@
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #1e1e2f; color: #fff; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+.game-container { text-align: center; background: #2a2a40; padding: 25px; border-radius: 12px; box-shadow: 0 8px 25px rgba(0,0,0,0.5); }
+h1 { margin-bottom: 10px; font-size: 24px; color: #00d2d3; }
+.scoreboard { display: flex; justify-content: space-around; margin-bottom: 15px; font-size: 18px; }
+canvas { background: #11111d; border-radius: 8px; cursor: crosshair; border: 2px solid #444; }
