@@ -1,0 +1,15 @@
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f4f7f6; margin: 0; padding: 20px; display: flex; justify-content: center; }
+.container { background: #ffffff; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); width: 100%; max-width: 500px; }
+h1 { color: #2c3e50; text-align: center; margin-bottom: 20px; }
+.form-group { display: flex; gap: 10px; margin-bottom: 20px; }
+input, select { padding: 10px; border: 1px solid #ddd; border-radius: 6px; font-size: 14px; }
+input { flex: 2; }
+select { flex: 1; }
+button { background-color: #3498db; color: white; border: none; padding: 10px 15px; border-radius: 6px; cursor: pointer; font-weight: 600; }
+button:hover { background-color: #2980b9; }
+ul { list-style: none; padding: 0; }
+li { background: #fafafa; border: 1px solid #eaeaea; padding: 12px 15px; border-radius: 6px; margin-bottom: 10px; display: flex; justify-content: space-between; align-items: center; }
+.prioridad-alta { border-left: 6px solid #e74c3c; }
+.prioridad-media { border-left: 6px solid #f39c12; }
+.prioridad-baja { border-left: 6px solid #2ecc71; }
+.completada span { text-decoration: line-through; color: #95a5a6; }
