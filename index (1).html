@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mascota POO</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; padding: 20px; }
+        .contenedor { border: 2px solid #333; padding: 20px; border-radius: 10px; display: inline-block; }
+        #barra-fondo { background: #eee; width: 200px; height: 20px; margin: 10px auto; border-radius: 10px; }
+        #barra { background: #27ae60; height: 100%; width: 100%; border-radius: 10px; transition: 0.3s; }
+    </style>
+</head>
+<body>
+    <h1>Ejercicio 2: Mascota Virtual</h1>
+    <div class="contenedor">
+        <h2 id="info">Cargando...</h2>
+        <div id="barra-fondo"><div id="barra"></div></div>
+        
+      
+        <button onclick="hacerJugar()">Jugar</button>
+        <button onclick="hacerComer()">Comer</button>
+        <button onclick="hacerDormir()">Dormir</button>
+    </div>
+
+ 
+    <script src="script.js"></script>
+</body>
+</html>
