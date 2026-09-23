@@ -1,0 +1,38 @@
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eef2f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    color: #333;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+.tarjeta-persona {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 10px;
+    width: 350px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border-left: 5px solid #3498db;
+    transition: transform 0.2s;
+}
+
+.tarjeta-persona:hover {
+    transform: translateY(-5px);
+}
+
+.tarjeta-persona p {
+    margin: 5px 0;
+    font-size: 1.1rem;
+}
+
+.label {
+    font-weight: bold;
+    color: #3498db;
+}
